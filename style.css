@@ -5,7 +5,7 @@ body{
 h1{
     font-size:60px;
 }
-.top-banner h2{
+h2{
     font-size: 42px;
     margin-top: -47px;
     margin-bottom: 55px;
@@ -14,11 +14,15 @@ h1{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
 }
+.dream-big h1{
+    margin-bottom:-10px;
+}
 
 
-section.top-banner{
-    display:flex;
+section{
+ display:flex;
 padding:0 120px;
+margin-bottom:50px;
 }
 .half-width{
     width:50%;
@@ -32,9 +36,14 @@ padding:0 120px;
 .hire-me{
     text-decoration: none;
     color:#fff;
-    background-image: linear-gradient(rgb(230, 203, 51),rgb(179, 93, 43));
+    background-image: linear-gradient(rgb(250, 198, 167),#f9755d);
     padding:10px 40px;
     display:inline-block;
     margin-top:10px;
     border-radius:5px;
+}
+.dream-big{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
